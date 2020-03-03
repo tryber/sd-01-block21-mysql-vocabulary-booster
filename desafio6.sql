@@ -12,4 +12,4 @@ FROM hr.employees AS EMP,
 WHERE EMP.employee_id = JOBH.employee_id
 AND JOBH.job_id = JOB.job_id
 AND DEP.department_id = JOBH.department_id
-ORDER BY 3 DESC;
+ORDER BY 3 DESC;     

@@ -5,4 +5,4 @@ SELECT EMP.employee_id,
 FROM hr.employees AS EMP, hr.job_history AS JOBH
 WHERE MONTH(JOBH.start_date) IN (1, 2, 3)
 AND EMP.employee_id = JOBH.employee_id
-ORDER BY 2;  
+ORDER BY 2; 
