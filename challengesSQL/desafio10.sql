@@ -5,4 +5,4 @@ ROUND(AVG(Quantity), 2) AS Média
 FROM w3schools.order_details
 GROUP BY ProductID
 HAVING Média > 20.00
-ORDER BY 4 ASC;
+ORDER BY Média ASC;
