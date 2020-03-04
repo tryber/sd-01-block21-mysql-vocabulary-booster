@@ -1,4 +1,3 @@
-SELECT * FROM hr.jobs;
 SELECT JOB_TITLE, 
 CASE WHEN max_salary > 4999 AND max_salary < 10001 THEN 'Baixo'
 	 WHEN max_salary > 10000 AND max_salary < 20001 THEN 'Médio'
