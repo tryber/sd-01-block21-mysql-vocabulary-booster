@@ -9,4 +9,3 @@ INNER JOIN hr.employees e
 on h.EMPLOYEE_ID = e.EMPLOYEE_ID
 WHERE MONTH(h.start_date) BETWEEN 1 AND 3
 order by e.FIRST_NAME ASC;
-
