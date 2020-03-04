@@ -16,7 +16,7 @@ BEGIN
   ON j_his.DEPARTMENT_ID = d.DEPARTMENT_ID
   INNER JOIN hr.jobs AS j
   ON j.JOB_ID = j_his.JOB_ID
-  WHERE j_his.EMPLOYEE_ID = 101;
+  WHERE j_his.EMPLOYEE_ID = employeeID;
 END $$
 
 DELIMITER ;

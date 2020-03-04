@@ -13,4 +13,3 @@ END $$
 DELIMITER ;
 
 CALL ShowAverageRentalDurationOfMovie('IT_PROG');
-
