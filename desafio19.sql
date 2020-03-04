@@ -2,7 +2,7 @@ USE hr;
 DELIMITER $$ 
 
 CREATE PROCEDURE ExibirHistoricoCompletoPorFuncionario(
-in employee_id VARCHAR(10)
+in employee_id int
 ) 
 BEGIN 
 	SELECT
@@ -22,4 +22,4 @@ END $$
 
 DELIMITER ; 
 
-CALL ExibirHistoricoCompletoPorFuncionario('101');
+CALL ExibirHistoricoCompletoPorFuncionario(101);
