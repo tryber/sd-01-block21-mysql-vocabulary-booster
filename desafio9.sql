@@ -1,5 +1,5 @@
 SELECT ord.EmployeeID, (
-	SELECT count(*)
+SELECT count(*)
     from w3schools.orders o
     where o.EmployeeID = ord.EmployeeID
 ) as 'Total de pedidos'
