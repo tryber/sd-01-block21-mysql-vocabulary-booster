@@ -8,4 +8,3 @@ and c.CustomerID != c2.CustomerID
 ) AS 'Número de Compatriotas'
 FROM w3schools.customers c
 order by c.ContactName ASC;
-
