@@ -1,0 +1,12 @@
+SELECT
+e.FIRST_NAME,
+e.SALARY,
+e.PHONE_NUMBER,
+e2.FIRST_NAME,
+e2.SALARY,
+e2.PHONE_NUMBER
+FROM hr.employees e
+INNER JOIN hr.employees e2
+on e.JOB_ID = e2.JOB_ID
+order by e.FIRST_NAME ASC
+Limit 2000;
