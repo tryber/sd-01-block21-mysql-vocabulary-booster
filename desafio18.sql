@@ -14,7 +14,5 @@ and year(e.HIRE_DATE) = ano
 INTO qtd_func;
 return qtd_func;
 END $$
-
 DELIMITER ; 
-
 select ExibirQuantidadePessoasContratadasPorMesEAno(6, 1987);
