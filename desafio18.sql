@@ -8,11 +8,11 @@ ano int
 RETURNS INT READS SQL DATA
 BEGIN
 DECLARE qtd_func INT;
-	SELECT count(*) FROM employees e
-    where Month(e.HIRE_DATE) = mes
-    and year(e.HIRE_DATE) = ano
-    INTO qtd_func;
-    return qtd_func;
+SELECT count(*) FROM employees e
+where Month(e.HIRE_DATE) = mes
+and year(e.HIRE_DATE) = ano
+INTO qtd_func;
+return qtd_func;
 END $$
 
 DELIMITER ; 
