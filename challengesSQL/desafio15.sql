@@ -2,17 +2,15 @@ USE hr;
 DELIMITER $$
 
 CREATE PROCEDURE ShowAverageRentalDurationOfMovie(
-IN jobID VARCHAR(300),
-OUT media DOUBLE
+    IN jobID VARCHAR(300)
 )
 BEGIN
-SELECT AVG(ROUND(salary, 2)) INTO media
-FROM hr.employees
-WHERE job_id = jobID
-GROUP BY job_id;
+    SELECT ROUND(AVG(salary), 2) AS media
+    FROM employees
+    WHERE job_id = jobID;
 END $$
 
 DELIMITER ;
 
-CALL ShowAverageRentalDurationOfMovie('IT_PROG', @media);
-SELECT @media;
+CALL ShowAverageRentalDurationOfMovie('IT_PROG');
+
