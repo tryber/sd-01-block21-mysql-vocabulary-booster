@@ -1,7 +1,7 @@
 USE hr;
 DELIMITER $$
 
-CREATE PROCEDURE ShowAverageRentalDurationOfMovie(
+CREATE PROCEDURE BuscarMediaPorCategoriaDeTrabalho(
   IN jobID VARCHAR(10)
 )
 BEGIN
@@ -12,4 +12,4 @@ END $$
 
 DELIMITER ;
 
-CALL ShowAverageRentalDurationOfMovie('IT_PROG');
+CALL BuscarMediaPorCategoriaDeTrabalho('IT_PROG');
