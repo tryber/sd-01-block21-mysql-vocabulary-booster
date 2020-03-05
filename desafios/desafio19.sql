@@ -22,3 +22,4 @@ WHERE jh.EMPLOYEE_ID = employee_id;
 END $$
 
 DELIMITER ;
+CALL ExibirHistoricoCompletoPorFuncionario(101);

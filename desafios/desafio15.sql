@@ -7,3 +7,4 @@ SELECT ROUND(AVG(e.salary), 2) AS 'media' FROM hr.employees e WHERE e.job_id = a
 END $$
 
 DELIMITER ;
+CALL BuscarMediaPorCategoriaDeTrabalho('IT_PROG');

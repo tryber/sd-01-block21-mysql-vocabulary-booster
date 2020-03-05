@@ -11,3 +11,4 @@ RETURN variable;
 END $$
 
 DELIMITER ;
+SELECT ExibirQuantidadePessoasContratadasPorMesEAno(6, 1987);

@@ -11,3 +11,4 @@ RETURN result;
 END $$
 
 DELIMITER ;
+SELECT BuscarQuantidadeDeEmpregosPorFuncionario(101);

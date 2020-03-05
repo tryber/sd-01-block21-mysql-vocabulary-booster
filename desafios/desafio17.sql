@@ -1,4 +1,3 @@
-SELECT * FROM hr.job_history;
 SELECT employee_id, 
 (CONCAT(DAY(start_date),'/',MONTH(start_date),'/',YEAR(start_date))) AS 'Data Início',
 (CONCAT(DAY(end_date),'/',MONTH(end_date),'/',YEAR(end_date))) AS 'Data Rescisão',
