@@ -10,5 +10,4 @@ SELECT EmployeeID,
 COUNT(EmployeeID) AS 'Total de pedidos'
 FROM w3schools.orders
 GROUP BY EmployeeID
-ORDER BY COUNT(EmployeeID) ASC
-LIMIT 9;
+ORDER BY COUNT(EmployeeID) ASC;
