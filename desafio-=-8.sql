@@ -4,4 +4,3 @@ INNER JOIN w3schools.customers AS t2
 ON t1.CustomerID = t2.CustomerID
 where t1.ShipperID = 1 or t1.ShipperID = 2
 order by 2;
-
