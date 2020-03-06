@@ -1,6 +1,6 @@
 SELECT
-  C1.CustomerID,
-  C1.ContactName AS Nome,
+	C1.CustomerID,
+	C1.ContactName AS Nome,
   C1.Country AS País,
   COUNT(C2.CustomerID) AS 'Número de Compatriotas'
 FROM w3schools.customers as C1, w3schools.customers as C2

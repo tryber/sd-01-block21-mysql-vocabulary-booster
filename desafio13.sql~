@@ -5,7 +5,7 @@ SELECT
     WHERE P.ProductID = D.ProductID
   ) AS productname,
   (
-    SELECT Price
+	SELECT Price
     FROM w3schools.products AS P
     WHERE P.ProductID = D.ProductID
   ) AS Price
