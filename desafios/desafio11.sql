@@ -23,4 +23,5 @@ ORDER BY 2;
 -- WHERE C.CustomerID != B.CustomerID 
 -- GROUP BY 1, 3
 -- ORDER BY 2;
-    
+
+  
