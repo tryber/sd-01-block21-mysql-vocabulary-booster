@@ -1,13 +1,13 @@
 (
-SELECT 
-Country 
-FROM w3schools.customers 
+SELECT
+Country
+FROM w3schools.customers
 ORDER BY 1 
 LIMIT 5)
 UNION
 (
 SELECT 
-Country 
+Country
 FROM w3schools.suppliers 
 ORDER BY 1 
 LIMIT 5);
