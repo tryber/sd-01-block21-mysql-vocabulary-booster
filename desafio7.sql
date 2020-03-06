@@ -1,7 +1,6 @@
 SELECT 
 h.EMPLOYEE_ID,
 UCASE(CONCAT(e.FIRST_NAME," ",e.LAST_NAME)) AS 'Nome completo',
-h.JOB_ID,
 h.start_date,
 e.SALARY
 FROM hr.job_history h
