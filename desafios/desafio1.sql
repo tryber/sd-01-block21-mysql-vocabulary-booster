@@ -4,5 +4,4 @@ SELECT
         WHEN (REGION_ID = 1) THEN 'Incluído'
         ELSE 'Não incluído'
     END AS 'Status Inclusão'
-FROM hr.countries LIMIT
-25;
+FROM hr.countries;

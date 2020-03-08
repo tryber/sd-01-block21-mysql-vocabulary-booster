@@ -4,4 +4,5 @@ SELECT
 FROM w3schools.products AS A
   INNER JOIN w3schools.order_details AS B
   ON  A.ProductID = B.ProductID
-WHERE B.Quantity > 80;
+WHERE B.Quantity > 80
+ORDER BY 1;
