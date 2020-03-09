@@ -6,5 +6,4 @@ jh.JOB_ID,
 jh.DEPARTMENT_ID,
 (SELECT d.DEPARTMENT_NAME FROM hr.departments AS d WHERE d.DEPARTMENT_ID = jh.DEPARTMENT_ID) AS Departamento
 FROM hr.job_history AS jh
-ORDER BY Nome_completo DESC
-LIMIT 10;
+ORDER BY Nome_completo DESC;

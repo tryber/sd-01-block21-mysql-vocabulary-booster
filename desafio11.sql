@@ -1,5 +1,3 @@
-SELECT * FROM w3schools.customers;
-
 SELECT cA.CustomerID,
 cA.ContactName AS Nome,
 cA.Country AS País,
